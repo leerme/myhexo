@@ -6,7 +6,7 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+author: 雷 雨
 language:
 timezone:
 
@@ -77,4 +77,5 @@ theme: smackdown
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/leerme/leerme.github.io.git
