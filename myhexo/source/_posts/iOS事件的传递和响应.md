@@ -28,7 +28,7 @@ date: 2017-08-24 10:41:45
 2. UIApplication会从事件对列中取出最前面的事件（此处假设为触摸事件A），把事件A传递给应用程序的主窗口（keyWindow）。
 3. 窗口会在视图层次结构中找到一个最合适的视图来处理触摸事件。（至此，第一步已完成）
 
-![iOS事件示例](../../images/3iosevent.png)
+![iOS事件示例](http://ow7iaz7ej.bkt.clouddn.com/3iosevent.png)
 
 如果想让某个view不能接收事件（或者说，事件传递到某个view那里就断了），那么可以通过刚才提到的三种方式。比如，设置其userInteractionEnabled = NO;那么传递下来的事件就会由该view的父控件处理。
 例如，不想让蓝色的view接收事件，那么可以设置蓝色的view的userInteractionEnabled = NO;那么点击黄色的view或者蓝色的view所产生的事件，橙色的view就会成为最合适的view。事件都会由橙色的veiw处理。

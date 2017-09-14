@@ -6,7 +6,7 @@ date: 2017-06-27 13:52:15
 
 ### 下面先看一下实现效果.
 <div align=center>
-![屏幕截图](/images/2reactnative.png "")
+![屏幕截图](http://ow7iaz7ej.bkt.clouddn.com/2reactnative.png)
 </div>
 
 ### 解决方法
